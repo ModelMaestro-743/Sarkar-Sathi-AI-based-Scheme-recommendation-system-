@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 scheme_env/
+scheme_chroma_db/
+scheme_faiss_index/
