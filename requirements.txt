@@ -1,0 +1,14 @@
+fastapi==0.136.1
+uvicorn==0.40.0
+python-multipart==0.0.26
+pydantic==2.12.5
+python-dotenv==1.2.1
+twilio==9.10.5
+openai==2.21.0
+pandas==3.0.0
+langchain-core==1.2.13
+langchain-openai==1.1.9
+langchain-community==0.4.1
+faiss-cpu==1.13.2
+autogen-agentchat==0.7.5
+autogen-ext==0.7.5
