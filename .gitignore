@@ -3,6 +3,3 @@ __pycache__/
 *.pyc
 scheme_env/
 scheme_chroma_db/
-scheme_faiss_index/
-scheme_chroma_db/
-scheme_faiss_index/

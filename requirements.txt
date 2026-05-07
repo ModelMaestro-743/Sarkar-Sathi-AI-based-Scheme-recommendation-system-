@@ -12,3 +12,4 @@ langchain-community==0.4.1
 faiss-cpu==1.13.2
 autogen-agentchat==0.7.5
 autogen-ext==0.7.5
+linkup-sdk==0.2.2
