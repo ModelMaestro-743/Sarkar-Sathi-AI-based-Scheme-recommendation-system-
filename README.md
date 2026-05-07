@@ -9,19 +9,22 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.136.1-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
 [![Twilio](https://img.shields.io/badge/Twilio-WhatsApp-F22F46?style=for-the-badge&logo=twilio&logoColor=white)](https://twilio.com)
-[![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com)
+[![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://sarkar-sathi-ai-based-scheme-768x.onrender.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 ---
 
 ### 💬 Try it — Chat with Sarkar Sathi on WhatsApp
 
-<a href="https://wa.me/14155238886?text=Hello">
+<a href="https://wa.me/14155238886?text=join%20correct-tall">
   <img src="https://img.shields.io/badge/WhatsApp-Start%20Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Chat on WhatsApp"/>
 </a>
 
-> **Save `+1 415 523 8886` on WhatsApp and send any message to begin.**
-> The bot will guide you in English, Hindi, or Marathi — no app download needed.
+> **Step 1:** Save `+1 415 523 8886` on WhatsApp
+> **Step 2:** Send the message **`join correct-tall`** to activate the bot
+> **Step 3:** The bot will guide you in English, Hindi, or Marathi
+>
+> ⚠️ *Currently on Twilio sandbox — a dedicated WhatsApp Business number is coming soon, after which no join code will be needed.*
 
 ---
 
@@ -35,12 +38,17 @@
 
 No installation needed. Just WhatsApp.
 
-### Step 1 — Save the number and say Hello
+### Step 1 — Save the number and send the join code
 
-Save **`+1 415 523 8886`** on your phone and open WhatsApp.
+Save **`+1 415 523 8886`** on your phone, open WhatsApp, and send:
+```
+join correct-tall
+```
 
-Or tap this link to open the chat directly:
-👉 **[https://wa.me/14155238886?text=Hello](https://wa.me/14155238886?text=Hello)**
+Or tap this link — it pre-fills the join message for you:
+👉 **[wa.me/14155238886?text=join correct-tall](https://wa.me/14155238886?text=join%20correct-tall)**
+
+> ⚠️ The join code is required only during the sandbox phase. Once a dedicated WhatsApp Business number is approved, users can message directly — no join code needed.
 
 ### Step 2 — Answer 8 simple questions
 
@@ -422,14 +430,14 @@ In your Render dashboard → **Environment** tab, add:
 #### Step 4 — Deploy
 
 Click **Create Web Service**. Render will build and deploy automatically.
-Your app URL will be: `https://your-app-name.onrender.com`
+Your app URL will be: `https://sarkar-sathi-ai-based-scheme-768x.onrender.com`
 
 #### Step 5 — Connect Twilio Webhook
 
 1. Go to **Twilio Console → Messaging → Try it out → Send a WhatsApp message**
 2. Under **Sandbox Configuration**, set the webhook URL to:
 ```
-https://your-app-name.onrender.com/webhook
+https://sarkar-sathi-ai-based-scheme-768x.onrender.com/webhook
 ```
 3. Set HTTP method to **POST**
 4. Save
